@@ -64,9 +64,7 @@
 		55288C122466FE56002B7B88 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				55288C2F24686BA7002B7B88 /* NetworkWeatherManager.swift */,
-				55288C3724687169002B7B88 /* CurrentWeatherData.swift */,
-				55288C3924688BBA002B7B88 /* CurrentWeather.swift */,
+				55485430246FF4F500EB8E4B /* Model */,
 				55288C28246701AE002B7B88 /* ViewController */,
 				55288C2A24670251002B7B88 /* View */,
 				55288C292467020D002B7B88 /* Supporting files */,
@@ -101,6 +99,16 @@
 				55288C192466FE56002B7B88 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		55485430246FF4F500EB8E4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55288C2F24686BA7002B7B88 /* NetworkWeatherManager.swift */,
+				55288C3724687169002B7B88 /* CurrentWeatherData.swift */,
+				55288C3924688BBA002B7B88 /* CurrentWeather.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
